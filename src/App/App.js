@@ -10,7 +10,6 @@ import {
     Routes,
     Route
 } from "react-router-dom";
-import Card from '../Views/Cartoons/Cartoons';
 import Cartoons from '../Views/Cartoons/Cartoons';
 
 class App extends React.Component {
