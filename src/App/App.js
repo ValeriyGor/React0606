@@ -5,6 +5,7 @@ import Analytics from "../Views/Analytics/Analytics";
 import Contacts from "../Views/Contacts/Contacts";
 import Products from "../Views/Products/Products";
 import FamousPeople from "../Views/FamousPeople/FamousPeople";
+import Films from "../Views/Films/Films";
 import './App.css';
 import {
     BrowserRouter as Router,
@@ -25,6 +26,7 @@ class App extends React.Component {
                       <Route exact path="/contacts" element={<Contacts/>}/>
                       <Route exact path="/analytics" element={<Analytics/>}/>
                       <Route exact path="/famouspeople" element={<FamousPeople/>}/>
+                      <Route exact path="/films" element={<Films/>}/>
                   </Routes>
 
               </div>
