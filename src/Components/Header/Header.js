@@ -21,7 +21,7 @@ function Header(props) {
                         <NavLink to="/contacts">Contacts</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/cartoon">Cartoons</NavLink>
+                        <NavLink to="/cartoons">Cartoons</NavLink>
                     </li>
                 </ul>
             </div>
