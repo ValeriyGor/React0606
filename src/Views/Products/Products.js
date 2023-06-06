@@ -7,10 +7,10 @@ class Products extends React.Component {
         return (
             <div className="card-container">
                 <Card title="Product 1" img={logo}/>
-                <Card/>
-                <Card title="Product 2"/>
-                <Card/>
-                <Card title="Product 3"/>
+                <Card img={logo} />
+                <Card title="Product 2" img={logo}/>
+                <Card img={logo} />
+                <Card title="Product 3" img={logo}/>
                 <Card/>
             </div>
         )
