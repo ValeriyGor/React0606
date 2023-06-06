@@ -27,10 +27,10 @@ class Card extends React.Component {
 
 
                 <h4>{this.state.inputData}</h4>
-                <input type="text" onBlur={event => this.setState({inputData: event.target.value})}/>
+                {/*<input type="text" onBlur={event => this.setState({inputData: event.target.value})}/>*/}
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem beatae enim eum expedita fuga inventore ipsam molestias possimus qui quibusdam quos rem repellendus saepe sapiente, sunt tenetur ut? Labore, nostrum.</p>
-                <button type="button" onClick={this.mouseClick}>Details</button>
+                {/*<button type="button" onClick={this.mouseClick}>Details</button>*/}
             </div>
         )
     }
