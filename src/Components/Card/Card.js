@@ -21,7 +21,7 @@ class Card extends React.Component {
     render() {
         return (
             <div className="card">
-                <Image src={logo} imgAlt="cardImg" />
+                <Image src={this.props.img} imgAlt="cardImg" />
                 <h3>{this.props.title ? this.props.title : this.state.defaultTitle}</h3>
 
                 <p>{this.product1 && this.product1.price}</p>

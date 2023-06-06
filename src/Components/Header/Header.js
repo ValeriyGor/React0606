@@ -19,6 +19,8 @@ function Header(props) {
                     </li>
                     <li>
                         <NavLink to="/contacts">Contacts</NavLink>
+                    </li><li>
+                        <NavLink to="/famouspeople">Famous-People</NavLink>
                     </li>
                 </ul>
             </div>
