@@ -20,6 +20,9 @@ function Header(props) {
                     <li>
                         <NavLink to="/contacts">Contacts</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/books">Books</NavLink>
+                    </li>
                 </ul>
             </div>
         </header>

@@ -4,6 +4,7 @@ import Header from "../Components/Header/Header";
 import Analytics from "../Views/Analytics/Analytics";
 import Contacts from "../Views/Contacts/Contacts";
 import Products from "../Views/Products/Products";
+import Books from '../Views/Books/Books';
 import './App.css';
 import {
     BrowserRouter as Router,
@@ -23,6 +24,7 @@ class App extends React.Component {
                       <Route exact path="/" element={<Products/>}/>
                       <Route exact path="/contacts" element={<Contacts/>}/>
                       <Route exact path="/analytics" element={<Analytics/>}/>
+                      <Route exact path="/books" element={<Books/>}/>
                   </Routes>
 
               </div>
