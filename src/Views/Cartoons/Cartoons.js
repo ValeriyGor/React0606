@@ -18,10 +18,11 @@ class Cartoons extends React.Component {
     return(
       <div>
         <h1>Мульфільми 2023 року</h1>
-        <div className='card-container'></div>
-        <Card title="Super Mario Bros." img={mario}/>
-        <Card title="Людина Павук: Навколо всесвіту" img={spiderman}/>
-        <Card title="Елементаль" img={elemental}/>
+        <div className='card-container'>
+          <Card title="Super Mario Bros." img={mario}/>
+          <Card title="Людина Павук: Навколо всесвіту" img={spiderman}/>
+          <Card title="Елементаль" img={elemental}/>
+        </div>        
       </div>
       
 
