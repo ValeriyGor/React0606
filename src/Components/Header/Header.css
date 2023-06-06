@@ -1,0 +1,26 @@
+header {
+    padding: 15px;
+    background-color: #08c;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px 8px;
+}
+
+.menu li {
+    margin-left: 15px;
+}
