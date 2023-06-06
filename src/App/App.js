@@ -10,6 +10,8 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import Card from '../Views/Cartoons/Cartoons';
+import Cartoons from '../Views/Cartoons/Cartoons';
 
 class App extends React.Component {
   render() {
@@ -23,6 +25,7 @@ class App extends React.Component {
                       <Route exact path="/" element={<Products/>}/>
                       <Route exact path="/contacts" element={<Contacts/>}/>
                       <Route exact path="/analytics" element={<Analytics/>}/>
+                      <Route exact path="/cartoons" element={<Cartoons/>}/>
                   </Routes>
 
               </div>
