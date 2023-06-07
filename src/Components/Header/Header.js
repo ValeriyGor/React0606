@@ -28,6 +28,9 @@ function Header(props) {
                     <li>
                         <NavLink to="/cartoons">Cartoons</NavLink>
                     </li>
+                    <li>
+                        <NavLink to="/mckinley">McKinley</NavLink>
+                    </li>
                 </ul>
             </div>
         </header>
