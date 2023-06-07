@@ -1,0 +1,10 @@
+.aside-block {
+  padding: 15px;
+  border-radius: 5px;
+  background: #08c;
+  margin: 15px 1%;
+  flex: 0 0 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

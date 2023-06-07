@@ -12,6 +12,7 @@ import {
     Route
 } from "react-router-dom";
 import Cartoons from '../Views/Cartoons/Cartoons';
+import Content from '../Views/Content/Content'
 
 class App extends React.Component {
   render() {
@@ -27,6 +28,7 @@ class App extends React.Component {
                       <Route exact path="/famouspeople" element={<FamousPeople/>}/>
                       <Route exact path="/films" element={<Films/>}/>
                       <Route exact path="/cartoons" element={<Cartoons/>}/>
+                      <Route exact path="/content" element={<Content/>}/>
                   </Routes>
 
               </div>

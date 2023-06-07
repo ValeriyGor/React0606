@@ -1,0 +1,17 @@
+footer {
+  padding: 15px;
+  background-color: #08c;
+  color: #fff;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 5px 8px;
+  text-align: center;
+}
+.footer-menu li {
+  width: 100px;
+  gap: 10px;
+}
