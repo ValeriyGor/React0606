@@ -5,8 +5,8 @@ import Contacts from "../Views/Contacts/Contacts";
 import Products from "../Views/Products/Products";
 import FamousPeople from "../Views/FamousPeople/FamousPeople";
 import Films from "../Views/Films/Films";
-import Hero from "../Views/Hero/Hero";
-import './App.css';
+import HeroPage from "../Views/Hero/Hero";
+import './App.scss';
 import {
     BrowserRouter as Router,
     Routes,
@@ -28,7 +28,7 @@ class App extends React.Component {
                         <Route exact path="/famouspeople" element={<FamousPeople />} />
                         <Route exact path="/films" element={<Films />} />
                         <Route exact path="/cartoons" element={<Cartoons />} />
-                        <Route exact path="/hero" element={<Hero />} />
+                        <Route exact path="/heropage" element={<HeroPage />} />
                     </Routes>
 
                 </div>

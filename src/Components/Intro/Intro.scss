@@ -1,0 +1,55 @@
+.hero-article {
+  padding-top: 2rem;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+  &__header {
+    display: grid;
+    width: 100%;
+    padding: 1rem 0;
+  }
+  &__title {
+    align-self: start;
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+  &__portDate {
+    display: inline-block;
+    color: rgba(0, 0, 0, .4);
+    font-style: italic;
+  }
+  &__body {
+    display: flex;
+  }
+  &__contect {
+    letter-spacing: 1.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+    gap: 1rem;
+  }
+  &__author {
+    display: inline-block;
+    font-style: italic;
+    align-self: end;
+    padding-right: 3rem;
+  }
+  &__image {
+  }
+  &__image img {
+    max-width: 100%;
+    padding: 1%;
+    border: 1px solid #eee;
+  }
+
+}

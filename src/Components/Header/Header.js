@@ -12,6 +12,9 @@ function Header(props) {
                 </div>
                 <ul className="menu">
                     <li>
+                        <NavLink to="/heropage">Hero</NavLink>
+                    </li>
+                    <li>
                         <NavLink to="/">Products</NavLink>
                     </li>
                     <li>
@@ -27,9 +30,6 @@ function Header(props) {
                     </li>
                     <li>
                         <NavLink to="/cartoons">Cartoons</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/heropage">Hero</NavLink>
                     </li>
                 </ul>
             </div>
