@@ -5,6 +5,7 @@ import Contacts from "../Views/Contacts/Contacts";
 import Products from "../Views/Products/Products";
 import FamousPeople from "../Views/FamousPeople/FamousPeople";
 import Films from "../Views/Films/Films";
+import Recipes from "../Views/Recipes/Recipes";
 import './App.css';
 import {
     BrowserRouter as Router,
@@ -27,6 +28,7 @@ class App extends React.Component {
                       <Route exact path="/famouspeople" element={<FamousPeople/>}/>
                       <Route exact path="/films" element={<Films/>}/>
                       <Route exact path="/cartoons" element={<Cartoons/>}/>
+                      <Route exact path="/recipes" element={<Recipes/>}/>
                   </Routes>
 
               </div>
